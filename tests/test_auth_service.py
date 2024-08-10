@@ -21,6 +21,7 @@ class TestAuthService:
     @allure.description("Проверить цепочку регистрации")
     def test_registration(self, register, gender):
         self.main_page.open_register_form()
+        raise BaseException
         self.reg_page.fill_form(gender, **cred)
         assert self.reg_page.check_success_registration(), "ошибка при регистрации"
         self.reg_page.check_personal_data(gender, **cred)
