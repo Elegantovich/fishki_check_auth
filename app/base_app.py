@@ -1,9 +1,8 @@
+from configs.config import Config
+from main.utils import get_web_driver
+from robots.base_robot import BaseRobot
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
-
-from configs.config import Config
-from robots.base_robot import BaseRobot
-from main.utils import get_web_driver
 
 
 class BaseApplication:

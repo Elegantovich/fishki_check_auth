@@ -1,10 +1,11 @@
 import logging
-import allure
 from typing import Union
+
+import allure
 from app.base_app import BaseApplication
 from configs.config import Config
-from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.by import By
 
 log = logging.getLogger(__name__)
 

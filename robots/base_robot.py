@@ -1,11 +1,11 @@
 import logging
 import os
-import allure
-from time import sleep
 from datetime import datetime as dt
 from pathlib import Path
-from configs.config import Config
+from time import sleep
 
+import allure
+from configs.config import Config
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait

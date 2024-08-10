@@ -1,6 +1,6 @@
-from selenium.webdriver.common.by import By
-from pages.base import BasePage
 import allure
+from pages.base import BasePage
+from selenium.webdriver.common.by import By
 
 
 class MainPageLocators:

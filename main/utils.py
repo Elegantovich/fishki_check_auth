@@ -1,9 +1,9 @@
 import logging
 import os
-from configs.config import Config
+
+import coloredlogs
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
-import coloredlogs
 
 _log = logging.getLogger(__name__)
 
