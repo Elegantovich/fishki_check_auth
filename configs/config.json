@@ -1,0 +1,9 @@
+{
+    "PROD": {
+        "url": "https://demoqa.com/"
+    },
+    "DEV": {
+        "test": "test"
+    },
+    "Timeout": 60
+}
