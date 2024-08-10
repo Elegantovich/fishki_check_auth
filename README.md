@@ -6,7 +6,6 @@
 
 - allure-pytest
 - selenium
-- requests
 
 ## Установка и настройка
 
