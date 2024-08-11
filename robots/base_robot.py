@@ -24,7 +24,7 @@ class BaseRobot:
 
     def open_url(self, url):
         """
-        Loads a web page in the current browser session.
+        Загрузка веб-страницы.
         """
         log.info(f'Пытаюсь открыть страницу: {url}')
         self.app.wd.get(url)
@@ -50,6 +50,7 @@ class BaseRobot:
                              ec.element_to_be_clickable(locator))
 
     def refresh_page(self):
+        log.info('Обновляю страницу')
         self.app.wd.refresh()
 
     def make_screenshot(self, comment=""):

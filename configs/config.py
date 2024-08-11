@@ -12,4 +12,3 @@ class Config:
     url = config[ENV]["url"]
     timeout = config["Timeout"]
     root_path = os.path.abspath(os.getcwd())
-    drv_path = os.path.join(root_path, "driver")
