@@ -43,7 +43,7 @@ ENVIROMENT=PROD
 > **pytest -s -v -m regress**
 
 **9** Выгрузить allure-отчёт можно командой 
-> **allure serve ./result**
+> **allure serve ./results**
 
 ## Директории
 
