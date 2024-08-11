@@ -24,7 +24,7 @@ class BaseRobot:
 
     def open_url(self, url):
         """
-        Loads a web page in the current browser session.
+        Загрузка веб-страницы.
         """
         log.info(f'Пытаюсь открыть страницу: {url}')
         self.app.wd.get(url)
