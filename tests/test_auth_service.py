@@ -1,8 +1,8 @@
 import allure
 import pytest
-from data.data import cred
-from pages.main import MainPage
-from pages.register import RegisterPage
+from main.data.data import cred
+from main.pages.main import MainPage
+from main.pages.register import RegisterPage
 
 
 class TestAuthService:
