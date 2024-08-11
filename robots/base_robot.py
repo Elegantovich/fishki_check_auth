@@ -50,6 +50,7 @@ class BaseRobot:
                              ec.element_to_be_clickable(locator))
 
     def refresh_page(self):
+        log.info('Обновляю страницу')
         self.app.wd.refresh()
 
     def make_screenshot(self, comment=""):

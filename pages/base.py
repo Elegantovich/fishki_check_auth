@@ -1,4 +1,3 @@
-import logging
 from typing import Union
 
 import allure
@@ -6,8 +5,6 @@ from app.base_app import BaseApplication
 from configs.config import Config
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
-
-log = logging.getLogger(__name__)
 
 
 class BaseLocators:
