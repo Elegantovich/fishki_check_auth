@@ -1,9 +1,10 @@
 import logging
 import os
-from app.base_app import BaseApplication
-from configs.config import Config
 import shutil
+
 import pytest
+from main.app.base_app import BaseApplication
+from main.configs.config import Config
 
 log = logging.getLogger(__name__)
 

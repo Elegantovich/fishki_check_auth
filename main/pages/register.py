@@ -1,6 +1,6 @@
 import allure
-from data.data import dict_gender
-from pages.base import BasePage
+from main.data.data import dict_gender
+from main.pages.base import BasePage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 

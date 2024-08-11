@@ -5,7 +5,7 @@ from pathlib import Path
 from time import sleep
 
 import allure
-from configs.config import Config
+from main.configs.config import Config
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
